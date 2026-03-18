@@ -633,7 +633,7 @@ int main(int argc, char** argv) {
             }
             else
             {
-                for (int j = 0; j < dat->num_objects - 1; j++)
+                for (int j = 0; j < dat->num_objects; j++)
                 {
                     fprintf(header, "#define %-30s\t%-4d\t//%.4s\n", dat->objects[j].properties[1].body, j, dat->objects[j].type);
                 }                
